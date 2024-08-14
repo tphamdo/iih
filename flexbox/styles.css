@@ -98,12 +98,16 @@ img {
   border: 1px solid #fff;
   background-color: #D6E9FE;
   height: 200px;
-  flex: 1;
+  flex: auto;
+}
+
+.footer-two {
+  width: 900px;
+  flex: initial;
 }
 
 .footer-one, .footer-three {
-  flex: initial;
-  width: 300px;
+  /*flex: initial;*/
   background-color: #5995DA;
 }
 
